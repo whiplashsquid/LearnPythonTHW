@@ -12,17 +12,5 @@ print(f"Here's your file {filename}:")
 # print contents of file bound to variable name txt using read function to access (commends txt file to be read with no parameter)
 print(txt.read())
 
-# prints formatted string
-print("Type the filename again:")
-# prints a prompt string and then uses input function to take data from user and assign it to variable name file_again
-file_again = input("> ")
-
-# uses open function to open the file the user inputted which is assigned to variable name file_again and assigns its contents to txt_again
-txt_again = open(file_again)
-
-# prints contents of file bound to variable name txt_again using read function to access
-print(txt_again.read())
-
-# close files again
 txt.close()
-txt_again.close()
+filename.close()
