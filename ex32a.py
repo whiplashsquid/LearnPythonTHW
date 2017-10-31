@@ -1,8 +1,8 @@
-the_count = [range(1,6)]
+the_count = range(1,6)
 fruits = ['apples', 'oranges', 'pears', 'apricots']
 change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 
-# this first kind of for-loop goes through a list
+# this first kind of for-loop goes through a list by assigning each element of the list to variable number with each iteration of the loop
 for number in the_count:
     print(f"This is count {number}")
 
@@ -16,7 +16,7 @@ for i in change:
     print(f"I got {i}")
 
 # we can create a numerical list with a range
-elements = [range(6)]
+elements = range(0,6)
 
 # now we can print them out too
 for i in elements:
