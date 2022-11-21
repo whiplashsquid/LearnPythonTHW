@@ -1,0 +1,2 @@
+# LearnPythonTHW
+exercises from LPTHW
